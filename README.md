@@ -20,7 +20,6 @@ create_virtual_hos is simple script which create virtual host for local web deve
    ErrorLog "/private/var/log/apache2/example_log"
 
    CustomLog "/private/var/log/apache2/example-access_log" common
-
  </VirtualHost>
  
  ### hosts
