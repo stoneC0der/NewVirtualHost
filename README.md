@@ -7,14 +7,20 @@ create_virtual_hos is simple script which create virtual host for local web deve
 
 ### What is added
     
-  #### httpd-vhost.conf
+ #### httpd-vhost.conf
    
-  <VirtualHost *:80>
-    ServerName example.com
-    ServerAlias www.example.com
-    DocumentRoot "/Users/yourUsername/Sites/example"
-    ErrorLog "/private/var/log/apache2/example_log"
-    CustomLog "/private/var/log/apache2/example-access_log" common
+ <VirtualHost *:80>
+
+   ServerName example.com
+
+   ServerAlias www.example.com
+
+   DocumentRoot "/Users/yourUsername/Sites/example"
+
+   ErrorLog "/private/var/log/apache2/example_log"
+
+   CustomLog "/private/var/log/apache2/example-access_log" common
+
  </VirtualHost>
  
  ### hosts
